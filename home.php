@@ -38,10 +38,7 @@
                 <h1>Site de Recettes !</h1>
                 <?php foreach($recipes as $recipe) : ?>
                     <article>
-                        <h3><?php echo($recipe['title']); ?></h3>
-                        <div>
-                            <?php echo($recipe['recipe']); ?>
-                        </div>
+                        <h3><a href="show_recipe.php?id=<?php echo($recipe['recipe_id']); ?>"><?php echo($recipe['title']); ?></a></h3>
                         <i>
                             <?php echo($recipe['author']); ?>
                         </i><br>
