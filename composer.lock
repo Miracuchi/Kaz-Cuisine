@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a6a8d6ce45e6dab85413e05b8aa61d54",
+    "packages": [
+        {
+            "name": "monolog/monolog",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "d28926294fb2b5fa5f5c5f5d5d5c5c5c5c5c5c5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/d28926294fb2b5fa5f5c5f5d5d5c5c5c5c5c5c5c",
+                "reference": "d28926294fb2b5fa5f5c5f5d5d5c5c5c5c5c5c5c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "elasticsearch/elasticsearch": "^7.0",
+                "ext-amqp": "*",
+                "ext-mongodb": "*",
+                "graylog2/gelf-php": "^1.4.2",
+                "jakub-onderka/php-parallel-lint": "^1.0",
+                "php-amqplib/php-amqplib": "^2.6",
+                "php-console/php-console": "^3.1.3",
+                "php-http/guzzle6-adapter": "^1.1",
+                "php-http/httplug": "^2.0",
+                "phpspec/phpspec": "^5.0",
+                "phpunit/phpunit": "^8.0",
+                "psr/log": "^1.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "elasticsearch/elasticsearch": "Allow sending log messages to an Elasticsearch server via official client",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongodb": "Allow sending log messages to a MongoDB server (via driver)",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "php-http/guzzle6-adapter": "Allow using Guzzle 6 HTTP
