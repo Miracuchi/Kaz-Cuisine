@@ -49,4 +49,5 @@
                 "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
                 "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
-                "php-http/guzzle6-adapter": "Allow using Guzzle 6 HTTP
+                "php-http/guzzle6-adapter": "Allow using Guzzle 6 HTTP"}
+            
