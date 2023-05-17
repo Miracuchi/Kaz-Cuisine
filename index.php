@@ -1,7 +1,10 @@
 <?php 
 
     require __DIR__.'/vendor/autoload.php';
-    Dotenv\Dotenv::createImmutable(__DIR__)->load();
+
+    if ($_ENV['APP_ENV'] !== 'prod') {
+        Dotenv\Dotenv::createImmutable(__DIR__)->load();
+    }
         
     if (isset($_SESSION['user']))
     {
