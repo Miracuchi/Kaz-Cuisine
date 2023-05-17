@@ -19,7 +19,7 @@
 
             // Ici on vérifie que l'utilisateur existe ou pas. Si ce n'est pas le cas, on le redirige vers la page de connexion.
             if (!isset($_SESSION['user'])){
-                header("Location: http://localhost/P3C2/home.php");
+                header("Location: http://localhost/P3C2/index.php");
                 exit();
             };
 

@@ -18,7 +18,7 @@
                 'password' => $password,
             ]);
     
-            header("Location: http://localhost/P3C2/home.php");
+            header("Location: http://localhost/P3C2/index.php");
             exit();
         }
     } 

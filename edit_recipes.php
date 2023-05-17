@@ -17,7 +17,7 @@
                 include_once('connect.php');
 
                 if (!isset($_SESSION['user'])){
-                    header("Location: http://localhost/P3C2/home.php");
+                    header("Location: http://localhost/P3C2/index.php");
                     exit();
                 }
 
@@ -41,7 +41,7 @@
                             'recipe' => $recipe
                         ]);
 
-                        header("Location: http://localhost/P3C2/home.php");
+                        header("Location: http://localhost/P3C2/index.php");
                         exit();
                     }
                 } else {
@@ -55,7 +55,7 @@
 
                 if (isset($_POST['annuler']))
                 {
-                    header("Location: http://localhost/P3C2/home.php");
+                    header("Location: http://localhost/P3C2/index.php");
                 }
             ?>
             <h1>Modifier la recette</h1>

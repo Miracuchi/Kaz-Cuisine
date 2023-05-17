@@ -1,22 +1,7 @@
 {
-    "name": "kaz-cuisine",
-    "description": "description du projet",
-    "type": "project",
-    "license": "proprietary",
-    "authors": [
-        {
-            "name": "Dylan",
-            "email": "dylan.dorvilma@gmail.com"
-        }
-    ],
     "require": {
         "php": "^7.4",
-        "monolog/monolog": "^2.0",
-        "doctrine/dbal": "^2.10"
-    },
-    "autoload": {
-        "psr-4": {
-            "NomDeLaClasse\\": "src/"
-        }
+        "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.5"
     }
 }

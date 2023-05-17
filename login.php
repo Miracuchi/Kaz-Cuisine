@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
         'email' => $email,
     ]);
     $userProfil = $loggin->fetch(PDO::FETCH_ASSOC);
-    header("Location: home.php");
+    header("Location: index.php");
     
         if ($userProfil){
         // L'email a été trouvé en BDD
@@ -48,7 +48,7 @@ if (isset($_SESSION['user'])){
 
 
 <?php if(!isset($user)): ?>
-<form action="home.php" method="POST">
+<form action="index.php" method="POST">
     <?php if(isset($errorMessage)) : ?>
         <div class="alert alert-danger" role="alert">
             <?php echo $errorMessage; ?>

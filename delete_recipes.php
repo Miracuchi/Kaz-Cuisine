@@ -18,7 +18,7 @@
 
                 if (!isset($_SESSION['user']))
                 {
-                    header("Location: http://localhost/P3C2/home.php");
+                    header("Location: http://localhost/P3C2/index.php");
                     exit();
                 }
 
@@ -30,12 +30,12 @@
                     $deleted = $mysqlConnection->prepare($sqlQuery);
                     $deleted->execute([
                     'id' => $id]);
-                    header("Location: http://localhost/P3C2/home.php");
+                    header("Location: http://localhost/P3C2/index.php");
                 }
 
                 if (isset($_POST['annuler']))
                 {
-                    header("Location: http://localhost/P3C2/home.php");
+                    header("Location: http://localhost/P3C2/index.php");
                 }
             ?>
 

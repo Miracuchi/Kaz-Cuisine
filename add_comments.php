@@ -36,7 +36,7 @@ if (isset($_POST['poster']))
 
 if (isset($_POST['back']))
 {
-    header("Location: http://localhost/P3C2/home.php");
+    header("Location: http://localhost/P3C2/index.php");
 }
 ?>
 

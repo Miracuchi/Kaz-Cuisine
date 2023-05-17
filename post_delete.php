@@ -8,5 +8,5 @@
         'id' => $id
     ]);
 
-header("Location: http://localhost/P3C2/home.php");
+header("Location: http://localhost/P3C2/index.php");
 ?>
